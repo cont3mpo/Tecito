@@ -1,0 +1,448 @@
+body {
+  color: #2d3538;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+h1, h2, h3, h4, .logo {
+  font-family: "Vesper Libre", serif;
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  padding-top: 20px;
+  margin-bottom: 60px;
+}
+
+h2, h4 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+  padding: 10px 0;
+}
+
+h4 {
+  width: 50%;
+}
+
+strong {
+  font-weight: 900;
+}
+
+.button.warning {
+  background-color: #edb10d;
+}
+
+.button.alert, .formulario form input[type="submit"] {
+  background-color: #cb4039;
+}
+
+nav ul {
+  list-style: none;
+}
+
+.menu {
+  background-color: #edb10d;
+  height: 42px;
+  width: 55px;
+  padding: 1px;
+  display: none;
+  margin-top: 10px;
+}
+
+.menu .raya {
+  width: 33px;
+  border: 2px solid #fff;
+  margin: 7px auto;
+}
+
+.logo {
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 32px;
+}
+
+.home {
+  background-image: url(../img/portada.jpg);
+  background-size: cover;
+  height: 490px;
+}
+
+.hojas {
+  background-image: url(../img/hojas.jpg);
+  background-size: cover;
+  height: 490px;
+}
+
+.bolsa {
+  background-image: url(../img/bolsas.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 490px;
+}
+
+.accesorio {
+  background-image: url(../img/accesorios.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 490px;
+}
+
+.transparencia {
+  background-color: rgba(0,0,0,0.3);
+  height: 490px;
+  overflow: hidden;
+}
+
+header nav ul {
+  float: right;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+}
+
+header nav ul li a:hover {
+  color: #ddd;
+}
+
+header nav ul li:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+
+header nav ul li.warning:hover {
+  background-color: transparent;;
+}
+
+header h1 {
+  padding-top: 200px;
+  color: #fff;
+}
+
+.hojas h1 {
+  padding-top: 220px;
+}
+
+header .button:nth-child(1) {
+  margin-top: 0;
+}
+
+header .button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 12px 10px;
+}
+
+header, section {
+  min-height: 490px;
+}
+
+.forms .transparencia {
+  height: 200px;
+  background-color: #35393d;
+  overflow: visible;
+}
+
+.forms header {
+  min-height: 200px;
+  background-color: #35393d;
+  overflow: hidden;
+}
+
+section {
+  overflow: hidden;
+}
+
+.cafe {
+  background-color: #ebe1ce;
+}
+
+.amarillo {
+  color: #fff;
+  background-color: #edb10d;
+  padding-bottom: 20px;
+}
+
+.amarillo h3 {
+  font-family: "Source Sans Pro", serif;
+  font-size: 44px;
+  font-weight: 400;
+}
+
+.amarillo .articulo p {
+  display: block;
+  padding-top: 20px;
+}
+
+.amarillo .articulo {
+  margin-bottom: 40px;
+}
+
+.articulo {
+  margin-bottom: 80px;
+}
+
+.bolsas {
+  background-image: url(../img/bolsa.jpg);
+  background-size: cover;
+  color: #fff;
+}
+
+.bolsas h4, .bolsas .button {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.bolsas .button {
+  margin-top: 10px;
+}
+
+.accesorios {
+  background-image: url(../img/tetera.jpg);
+  background-position: center;
+}
+
+.articulo p, .articulo .button {
+ display: inline-block;
+}
+
+.articulo p {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.logo a, .button a {
+  color: #fff;
+}
+
+.button {
+  font-weight: 900;
+  font-size: 20px;
+  padding: 10px;
+}
+
+footer {
+  background-color: #35393d;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+footer nav ul li a {
+  color: #fff;
+}
+
+ footer nav ul li a:hover {
+   color: rgba(255,255,255,0.5);
+ }
+
+footer .iconos {
+  padding-top: 20px;
+  text-align: right;
+}
+
+footer .iconos img {
+  margin-left: 10px;
+}
+
+footer p {
+  padding-top: 30px;
+  color: #afafaf;
+}
+
+/* Fondo ventana formulario */
+.modal {
+  overflow: auto;
+  background-color: #ebe1ce;
+}
+
+.modal h2 {
+  text-align: center;
+}
+
+/* Contenido ventana Formulario */
+.modal-content {
+  margin: 0 auto;
+  padding: 20px;
+  width: 80%;
+  overflow: hidden;
+}
+
+/* Formulario */
+.formulario {
+  float: left;
+  width: 100%;
+  max-width: 400px;
+  height: 300px;
+  margin: auto;
+}
+
+.formulario form input[type="text"], .formulario form input[type="email"], .formulario form input[type="password"] {
+  padding: 13px 14px;
+	border: 1px solid #b3b3b3;
+	color: #545454;
+	max-width: 356px;
+  width: 100%;
+	margin-bottom: 21px;
+	box-sizing: border-box;
+  display: block;
+}
+
+.formulario form input[type="password"] {
+  margin-bottom: 20px;
+}
+
+.formulario form input[type="text"]:hover, .formulario form input[type="email"]:hover, .formulario form input[type="password"]:hover {
+	border-color: #cb4039;
+}
+
+.formulario form input[type="text"]:focus, .formulario form input[type="email"]:focus, .formulario form input[type="password"]:focus {
+  outline: none;
+  border: 2px solid #cb4039;
+  padding: 12px 13px;
+}
+
+.formulario form input[type="submit"] {
+  padding: 14px;
+	color: #fff;
+  width: 100%;
+  max-width: 356px;
+	cursor: pointer;
+	border-width: 0;
+}
+
+.formulario form [type="submit"]:hover {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+
+.formulario form [type="submit"]:focus {
+  outline: none;
+  border: 2px solid #58167d;
+  padding: 12px 12px;
+  border: 2px solid #fff;
+}
+
+.formulario ul {
+  list-style: none;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.puntos {
+  font-size: 22px;
+}
+
+.puntos ul {
+  list-style: none;
+  padding-top: 10px;
+}
+
+.puntos ul li {
+  margin-bottom: 40px;
+}
+
+.puntos ul li img {
+  padding-right: 20px;
+  padding-left: 200px;
+}
+
+.confirma p {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.confirma p img {
+  padding-right: 20px;
+}
+
+@media (max-width: 1200px) {
+  .puntos ul li img {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 640px) {
+  body, .button, .puntos {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 36px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .bolsas .button, .accesorios .button {
+    margin-left: 80px;
+  }
+
+  .amarillo h3 {
+    font-size: 40px;
+  }
+
+  footer .iconos, footer nav {
+    text-align: center;
+  }
+
+  header nav ul {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    float: right;
+    cursor: pointer;
+  }
+
+  header nav:hover ul  {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  header nav ul li {
+    display: block;
+  }
+
+  .puntos ul li img {
+    padding-left: 0;
+    width: 52px;
+  }
+
+  .confirma p img {
+    width: 52px;
+  }
+
+  .secciones .articulo {
+    width: 43%;
+    margin-right: 7%;
+  }
+
+  .secciones .articulo img {
+    max-width: 90%;
+  }
+}
