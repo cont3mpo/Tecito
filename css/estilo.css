@@ -409,6 +409,10 @@ footer p {
     text-align: center;
   }
 
+  header nav {
+    padding-bottom: 10px;
+  }
+
   header nav ul {
     display: none;
   }
@@ -421,11 +425,15 @@ footer p {
 
   header nav:hover ul  {
     display: block;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    z-index: 1;
+    margin-top: 55px;
   }
 
   header nav ul li {
     display: block;
+    margin-right: 4px;
   }
 
   .puntos ul li img {
